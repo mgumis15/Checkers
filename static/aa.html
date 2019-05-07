@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script src="three_ver97.js"></script>
+    <script>
+        class Pionek extends THREE.Mesh {
+            constructor() {
+                super() // wywołanie konstruktora klasy z której dziedziczymy czyli z Mesha
+                console.log(this)
+            }
+            set kolor(val) {
+                console.log("setter")
+                this._kolor = val
+            }
+            get kolor() {
+                console.log("getter")
+                return this._kolor
+            }
+        }
+
+        var pionek = new Pionek()
+        console.log(pionek.type)
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

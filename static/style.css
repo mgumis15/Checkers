@@ -1,0 +1,52 @@
+#logowanko {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+   visibility: visible;
+    z-index: 3;
+}
+#form{
+    width:300px;
+    height:200px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    position: relative;
+    top:35vh;
+    left:35vw;
+
+}
+#input{
+    width:90%;
+    margin-left: 4%;
+    border: 3px double darkcyan ;
+}
+#login{
+    width:50%;
+    margin-left: 23%;
+    margin-top: 5%;
+    border: 3px double darkcyan ;
+}
+p{
+    color:white;
+    text-align: center;
+}
+#root{
+    background-color: #C0C0C0;
+    position: absolute;
+}
+header{
+    width: 100vw;
+    height: 5vh;
+background-color: green;
+z-index: 5;
+position: absolute;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
